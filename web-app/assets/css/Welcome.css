@@ -1,0 +1,57 @@
+/* welcome title text css */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#welcome__title__text
+{
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 15px;
+}
+/* welcome textarea css */
+.welcome__textarea
+{
+    /* width:400px; */
+   margin: auto;
+    border-color: rgb(199, 199, 199);
+}
+/* button block css */
+#button__block
+{
+    background-color:#778ba4;
+    border-radius: 0px;
+    width: 15rem;
+    font-style: italic;
+    font-weight: 700;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom:20px;
+}
+.btn-right
+{
+    float: right;
+}
+/* media quary for button for small screen device */
+@media only screen and (max-width: 577px) 
+{
+    .btn-right
+    {
+        display:block;
+        justify-content: center;
+        float: none;
+    }
+    #button__block
+    {
+        width: 90%;
+
+    }
+    .btn-col
+    {
+        display: flex;
+        justify-content: space-around;
+    } 
+
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Welcome.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/js/bootstrap.min.js">
+    <script src="assets/js/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <section>
+        <div class="row">
+            <div class="col-sm-12 "><h1 id="title__text" >Logo</h1></div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md bg-light navbar-light">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn__languages  btn-link text-decoration-none  dropdown-toggle" data-toggle="dropdown">
+                          Languages
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Hindi</a>
+                          <a class="dropdown-item" href="#">Gujarati</a>
+                          <a class="dropdown-item" href="#">Marathi</a>
+                          <a class="dropdown-item" href="#">English</a>
+                          
+                        </div>
+                      </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        
+                      <ul id="header__ul" class="navbar-nav ml-auto">
+                        <li  class="nav-item">
+                          <a class="nav-link" href="#">Contact US</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Search</a>
+                          </li>    
+                      </ul>
+                    </div>  
+                  </nav>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- Header End -->
+   <!-- Content Start -->
+   <div class="container   ">
+    <div class="row justify-content-center">
+        <div class="col-sm-10">
+            <div class="col-lg-5 d-inline ">
+                <label id="welcome__title__text">Welcome</label>
+                <div class="form-group">
+                 <textarea id="" class="form-control welcome__textarea" rows="8"> Welcome Note and News......</textarea>
+                </div>
+              </div>
+        </div>
+    </div>  
+    <div class="row justify-content-center">
+        <div class="btn-col col-sm-6 col-md-5 col-lg-4 col-xl-4">
+            <button id="button__block" type="button" class="btn btn-default ">Public Services</button>
+        </div>
+
+        <div class=" btn-col col-sm-6 col-md-5 col-lg-4 col-xl-4">
+            <button id="button__block" type="button" class="btn btn-right  ">Local Services</button>
+
+        </div>
+    </div>  
+    </div>
+   <!-- Content End -->
+    <!-- Footer Start -->
+    <br/>
+    <br/>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 contact__form__div ">
+                <span class="Contact-form-title">
+                    Contact
+                    </span>
+
+                <form  action="#" method="post">
+                <div class="form-group row">
+                <label for="inputName3" class="col-sm-6 col-form-label">Name:</label>
+                <div class="col-sm-6">
+                    <input required type="text" class="form-control contact__form__input" 
+                    id="inputName3" >
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="inputLastName3" class="col-sm-6 col-form-label">Last Name:</label>
+                <div class="col-sm-6">
+                    <input required type="text" class="form-control contact__form__input" id="inputLastName3" >
+                </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-6 col-form-label">Email:</label>
+                    <div class="col-sm-6">
+                    <input required type="email" class="form-control contact__form__input" id="inputEmail3" >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputTelephone3" class="col-sm-6 col-form-label">Telephone:</label>
+                    <div class="col-sm-6">
+                    <input required type="number" class="form-control contact__form__input" id="inputTelephone3" >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-12 col-form-label" for="exampleFormControlTextarea1">Message:</label>
+                    <div class="col-sm-12">
+                
+                    <textarea required class="form-control contact__form__input" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                <div class="col-sm-12  ">
+                    <button type="submit" class="btn float-right btn-link" style="color:black!important;font-weight:700!important;font-size:22px;">Submit</button>
+                </div>
+                </div>
+            </form>
+            </div>
+            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 livechat__form__div">
+                <span class="Contact-form-title">
+                    Live Chat
+                    </span>
+                    <form class="" id="live-chat-form" action="">
+                        <div class="form-group row">
+                            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-6">
+                                <input type="text" name="name" class="formStyle" placeholder="User Name" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-6">
+                                <input type="email" name="email" class="formStyle" placeholder="Email " required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-6">
+                                <input type="password" name="password" class="formStyle" placeholder="Password" required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-6">
+                                <input type="password" name="Confirm Password" class="formStyle" placeholder="Confirm Password" required />
+                            </div>
+                        </div>
+                        <span style="color:black;font-weight:700;" class="Contact-form-title">
+                            Register
+                            </span>
+                        
+                      </form>
+                    
+
+
+
+            </div>
+        </div>    
+    </div>
+    <!-- Footer End -->
+</body>
+</html>
